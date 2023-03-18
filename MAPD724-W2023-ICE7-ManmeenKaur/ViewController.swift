@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        // Animation
+        // 1st - Moving Items with Animation
         UIView.animate(withDuration: 2.0) {
                 self.myLabel.center.x += self.view.bounds.width
                 self.myTextField.center.x += self.view.bounds.width
@@ -26,7 +26,8 @@ class ViewController: UIViewController {
         }
         
         
-        // Including delay Animation and repeat and autoreverse Animation
+        
+        // 2nd - Including delay Animation and repeat and autoreverse Animation
 //        UIView.animate(withDuration: 3.4, delay: 2.3, options:
 //        [.repeat, .autoreverse], animations: {
 //            self.myLabel.center.x += self.view.bounds.width
@@ -35,7 +36,8 @@ class ViewController: UIViewController {
 //        }, completion: nil)
         
         
-        // Customizing Animation with Damping and Velocity
+        
+        // 3rd - Customizing Animation with Damping and Velocity
 //        UIView.animate(withDuration: 2.0, delay: 0.5, usingSpringWithDamping: 0.1, initialSpringVelocity: 0.5, options: [.repeat, .autoreverse], animations: {
 //            self.myLabel.center.x += self.view.bounds.width
 //            self.myTextField.center.x += self.view.bounds.width
@@ -43,7 +45,8 @@ class ViewController: UIViewController {
 //        }, completion: nil)
         
         
-        // Resizing Items with Animation
+        
+        // 4th - Resizing Items with Animation
 //        myLabel.text = "This is a label"
 //            UIView.animate(withDuration: 2.0, delay: 0.0, options: [.repeat, .autoreverse], animations: {
 //                self.myLabel.frame.size.width += 25
@@ -58,7 +61,8 @@ class ViewController: UIViewController {
 //        }, completion: nil)
         
         
-        // Rotating Items with Animation
+        
+        // 5th - Rotating Items with Animation
 //        let rotateMe = GLKMathDegreesToRadians(45)
 //            UIView.animate(withDuration: 2.0, delay: 0.0, options: [.repeat, .autoreverse], animations: {
 //                self.myLabel.transform = CGAffineTransform(rotationAngle: CGFloat(rotateMe))
@@ -71,7 +75,8 @@ class ViewController: UIViewController {
 //        }, completion: nil)
         
         
-        // Changing Transparency with Animation
+        
+        // 6th - Changing Transparency with Animation
 //            UIView.animate(withDuration: 2.0, delay: 0.0, options: [.repeat, .autoreverse], animations: {
 //                self.myLabel.alpha = 0.0
 //                self.myLabel.backgroundColor = UIColor.lightGray
@@ -83,6 +88,7 @@ class ViewController: UIViewController {
 //            UIView.animate(withDuration: 2.5, delay: 1.5, options: [.repeat, .autoreverse], animations: {
 //                self.myImageView.alpha = 0.0
 //        }, completion: nil)
+        
         
     }
 
